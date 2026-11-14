@@ -1,10 +1,10 @@
 # co2-emissions-JPN
-CO2 Emissions Analysis: Japan
+**CO2 Emissions Analysis: Japan**
 
-**Student**: Laurence Baldelovar
-**Country / ISO-3**: Japan / JPN
-**Study period**: 1990–2024
-**Declared to instructor on**: November 14, 2026
+****Student**:** Laurence Baldelovar
+****Country / ISO-3**:** Japan / JPN
+****Study period**:** 1990–2024
+****Declared to instructor on**:** November 14, 2026
 
 **Research question**
 
@@ -20,7 +20,7 @@ Our World in Data (OWID), CO₂ and Greenhouse Gas Emissions dataset. The analys
 
 **Download date:** November 14, 2026
 
-Selected columns: country, iso_code, year, co2, and co2_per_capita.
+**Selected columns:** country, iso_code, year, co2, and co2_per_capita.
 
 co2: Annual CO₂ emissions from fossil fuels and industrial processes, excluding land-use change, in million tonnes.
 
@@ -46,7 +46,7 @@ Connect to the internet for the initial full-dataset download.
 
 In the RStudio Console, run:
 
-source("scripts/analyze_co2.R")
+source**("scripts/analyze_co2.R")**
 
 The script creates the country-only dataset in data/, figures in figures/, and numerical outputs in results/.
 
