@@ -1,1 +1,6 @@
 data/owid-co2-data.csv
+data/owid-co2-data.csv
+.Rproj.user/
+data/PHL_co2.csv
+figures/PHL_*.png
+results/PHL_*.csv
