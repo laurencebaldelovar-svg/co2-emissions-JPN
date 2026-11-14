@@ -1,24 +1,24 @@
 # co2-emissions-JPN
 CO2 Emissions Analysis: Japan
 
-Student: Laurence Baldelovar
-Country / ISO-3: Japan / JPN
-Study period: 1990–2024
-Declared to instructor on: November 14, 2026
+**Student**: Laurence Baldelovar
+**Country / ISO-3**: Japan / JPN
+**Study period**: 1990–2024
+**Declared to instructor on**: November 14, 2026
 
-Research question
+**Research question**
 
 How have annual CO₂ emissions and per-capita CO₂ emissions changed in Japan from 1990 to 2024?
 
 From 1990 to 2024, Japan's annual CO₂ emissions and per-capita CO₂ emissions generally decreased over the long term, although some years showed increases and fluctuations. Annual emissions represent the total amount of CO₂ released by the country each year, while per-capita emissions represent the average emissions per person. Examining these indicators helps describe changes in Japan's overall carbon emissions and average emissions per resident.
 
-Data source and definitions
+**Data source and definitions**
 
 Our World in Data (OWID), CO₂ and Greenhouse Gas Emissions dataset. The analysis script downloads the full dataset from the official OWID data endpoint and extracts only Japan's records.
 
-Source dataset: https://owid-public.owid.io/data/co2/owid-co2-data.csv
+**Source dataset**: https://owid-public.owid.io/data/co2/owid-co2-data.csv
 
-Download date: November 14, 2026
+**Download date:** November 14, 2026
 
 Selected columns: country, iso_code, year, co2, and co2_per_capita.
 
@@ -28,7 +28,7 @@ co2_per_capita: Annual CO₂ emissions per person, in tonnes/person/year.
 
 These are emissions estimates, not atmospheric CO₂ concentrations or measurements of all greenhouse gases. Missing values are retained as missing and are not changed to zero.
 
-Software
+**Software**
 
 R and RStudio
 
@@ -36,7 +36,7 @@ Git, configured for use by RStudio
 
 The analysis uses base R and does not require additional R packages.
 
-How to reproduce the analysis
+**How to reproduce the analysis**
 
 Clone this repository and open it as an RStudio Project.
 
@@ -52,7 +52,7 @@ The script creates the country-only dataset in data/, figures in figures/, and n
 
 The complete multi-country source file, data/owid-co2-data.csv, must remain local and must not be committed.
 
-Results
+**Results**
 
 Earliest year with valid annual emissions: 1990, 1,154.24 million tonnes CO₂/year.
 
@@ -87,11 +87,11 @@ Changes in energy consumption, economic activities, and the use of different ene
 
 Overall, Japan's emissions in 2024 were lower than its 1990 level. Continued efforts to improve energy efficiency, expand renewable energy, and reduce fossil-fuel consumption are important for reducing emissions and addressing climate change.
 
-Limitations
+**Limitations**
 
 The OWID CO₂ indicator covers fossil-fuel and industrial-process emissions and excludes land-use change; it is not a measure of all greenhouse gases. Territorial accounting assigns emissions to the country where they occur and does not, by itself, capture emissions embodied in imported goods. Missing observations are not treated as zero. Country-level annual data also cannot identify the exact causes of changes without additional evidence.
 
-References
+**References**
 
 Our World in Data. CO₂ and Greenhouse Gas Emissions dataset.
 
